@@ -1,0 +1,8 @@
+.env
+**/node_modules
+**/dist
+backend/var
+backend/vendor
+backend/.env.local
+backend/.env.local.php
+**/.git

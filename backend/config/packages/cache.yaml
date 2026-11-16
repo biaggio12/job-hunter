@@ -1,0 +1,7 @@
+framework:
+    cache:
+        prefix_seed: jobhunter/app
+        pools:
+            # Stan harmonogramu w PostgreSQL — przetrwa restart/przebudowę kontenera workera.
+            scheduler.cache:
+                adapter: cache.adapter.doctrine_dbal

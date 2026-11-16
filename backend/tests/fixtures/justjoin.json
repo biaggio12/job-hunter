@@ -1,0 +1,489 @@
+{
+ "data": [
+  {
+   "guid": "1fc1bed2-369a-4102-afc8-f3bdeb3c40ff",
+   "slug": "ideamotive-senior-php-developer-k-m-e-commerce-saas-warszawa-php",
+   "title": "Senior PHP Developer (k/m), e-commerce / SaaS",
+   "workplaceType": "remote",
+   "workingTime": "full_time",
+   "experienceLevel": "senior",
+   "category": {
+    "key": "php",
+    "parentKey": null
+   },
+   "city": "Warszawa",
+   "street": "Złota 61",
+   "latitude": 52.23277,
+   "longitude": 21.00437,
+   "isRemoteInterview": false,
+   "companyName": "Ideamotive",
+   "companyLogoThumbUrl": "https://imgproxy.justjoinit.tech/CQaHHrzGQjp1UMdB6JoON1RbP1W0PWfvxE17v6JIoyk/h:200/w:200/plain/https://s3.eu-west-1.amazonaws.com/images.justjoin.it/organization-units/dbba2620fc9046958d87a78e965996f0/logos/1786973509_01a00febd6f3761bbc3bee6af5f15c7a.png",
+   "publishedAt": "2026-11-15T14:15:13.0418281Z",
+   "isOpenToHireUkrainians": false,
+   "locations": [
+    {
+     "city": "Warszawa",
+     "street": "Złota 61",
+     "latitude": 52.23277,
+     "longitude": 21.00437,
+     "slug": "ideamotive-senior-php-developer-k-m-e-commerce-saas-warszawa-php"
+    }
+   ],
+   "employmentTypes": [
+    {
+     "from": 20160.0,
+     "fromPerUnit": 120.0,
+     "to": 26880.0,
+     "toPerUnit": 160.0,
+     "currency": "PLN",
+     "currencySource": "original",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 5100.0,
+     "fromPerUnit": 30.35976319384704,
+     "to": 6801.0,
+     "toPerUnit": 40.47968425846272,
+     "currency": "USD",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 4558.0,
+     "fromPerUnit": 27.12906653403564,
+     "to": 6077.0,
+     "toPerUnit": 36.17208871204752,
+     "currency": "EUR",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 4172.0,
+     "fromPerUnit": 24.83238142537872,
+     "to": 5562.0,
+     "toPerUnit": 33.10984190050496,
+     "currency": "CHF",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 3801.0,
+     "fromPerUnit": 22.625714124102,
+     "to": 5068.0,
+     "toPerUnit": 30.167618832136,
+     "currency": "GBP",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    }
+   ],
+   "requiredSkills": [
+    {
+     "skillId": "5a133069-4d4a-49c7-bf64-1503f29bf651",
+     "name": "PHP",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "7b767135-146a-401c-817e-a5c1c90542b8",
+     "name": "OOP",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "a1f6af47-a042-4902-9b69-93777f8910df",
+     "name": "MySQL",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "c98fc964-5f03-488f-9e6c-3c47ebac848a",
+     "name": "SQL",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "81e4934d-7942-4f0c-8076-a2ebe7f6e923",
+     "name": "REST API",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "11ff594c-ebcf-447a-b8e3-1ba3869174ca",
+     "name": "Git",
+     "level": 4,
+     "group": null
+    }
+   ],
+   "niceToHaveSkills": [
+    {
+     "skillId": "202d7f82-4789-41a4-a5d6-ccbb6f3597fd",
+     "name": "Symfony",
+     "level": 2,
+     "group": null
+    },
+    {
+     "skillId": "b002cd3b-f1a0-457b-8146-32f09d40908b",
+     "name": "Laravel",
+     "level": 2,
+     "group": null
+    },
+    {
+     "skillId": "81791f12-5bba-4685-906e-43ea62ead6b7",
+     "name": "Doctrine",
+     "level": 2,
+     "group": null
+    },
+    {
+     "skillId": "0b575052-c224-489a-9bdd-5881b29eae54",
+     "name": "Redis",
+     "level": 2,
+     "group": null
+    }
+   ],
+   "languages": [
+    {
+     "code": "polish",
+     "level": "C2"
+    }
+   ],
+   "isPromoted": false,
+   "isSuperOffer": false,
+   "applyMethod": "external",
+   "applyUrl": "https://app.matchtly.com/pages/apply/bNhVn_GKIGuR_9gY",
+   "lastPublishedAt": "2026-10-21T14:13:54.13761Z",
+   "expiredAt": "2027-01-21T22:59:59.999Z",
+   "companyProfileSlug": null,
+   "hybridWorkSchedule": null
+  },
+  {
+   "guid": "5aca1135-8b7c-4594-9619-95545e8020cc",
+   "slug": "get-it-together-sp-z-o-o--starzy-programista--tka-php-react-warszawa-other",
+   "title": "Starzy Programista/-tka PHP/React",
+   "workplaceType": "remote",
+   "workingTime": "full_time",
+   "experienceLevel": "senior",
+   "category": {
+    "key": "other",
+    "parentKey": null
+   },
+   "city": "Warszawa",
+   "street": "-",
+   "latitude": 52.2296756,
+   "longitude": 21.0122287,
+   "isRemoteInterview": false,
+   "companyName": "GET IT TOGETHER Sp. z o.o.",
+   "companyLogoThumbUrl": "https://imgproxy.justjoinit.tech/rzqrtTsi4NyXPn5Y7_8cFW-13OU2wPLPN0i9XRReGBk/h:200/w:200/plain/https://public.justjoin.it/companies/logos/original/9f453a0eb256ccde0d980f30421f984dcf64523e.png",
+   "publishedAt": "2026-11-15T13:35:08.636255Z",
+   "isOpenToHireUkrainians": false,
+   "locations": [
+    {
+     "city": "Warszawa",
+     "street": "-",
+     "latitude": 52.2296756,
+     "longitude": 21.0122287,
+     "slug": "get-it-together-sp-z-o-o--starzy-programista--tka-php-react-warszawa-other"
+    }
+   ],
+   "employmentTypes": [
+    {
+     "from": null,
+     "fromPerUnit": null,
+     "to": null,
+     "toPerUnit": null,
+     "currency": "EUR",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "month",
+     "gross": false
+    },
+    {
+     "from": null,
+     "fromPerUnit": null,
+     "to": null,
+     "toPerUnit": null,
+     "currency": "GBP",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "month",
+     "gross": false
+    },
+    {
+     "from": null,
+     "fromPerUnit": null,
+     "to": null,
+     "toPerUnit": null,
+     "currency": "USD",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "month",
+     "gross": false
+    },
+    {
+     "from": null,
+     "fromPerUnit": null,
+     "to": null,
+     "toPerUnit": null,
+     "currency": "CHF",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "month",
+     "gross": false
+    },
+    {
+     "from": null,
+     "fromPerUnit": null,
+     "to": null,
+     "toPerUnit": null,
+     "currency": "PLN",
+     "currencySource": "original",
+     "type": "b2b",
+     "unit": "month",
+     "gross": false
+    }
+   ],
+   "requiredSkills": [
+    {
+     "skillId": "5a133069-4d4a-49c7-bf64-1503f29bf651",
+     "name": "PHP",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "202d7f82-4789-41a4-a5d6-ccbb6f3597fd",
+     "name": "Symfony",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "9d3dd98d-2c35-441d-9588-44fc13236cd4",
+     "name": "yii2",
+     "level": 3,
+     "group": null
+    },
+    {
+     "skillId": "fccefe0a-74bb-4e89-a72c-4ae72a0a292a",
+     "name": "API Platform",
+     "level": 3,
+     "group": null
+    },
+    {
+     "skillId": "afbe9612-0519-401e-b3b5-1a8690d1c2fd",
+     "name": "React.JS",
+     "level": 3,
+     "group": null
+    },
+    {
+     "skillId": "3645fcb4-7460-4d50-b271-a68cfeefb2f3",
+     "name": "testowanie jednostkowe",
+     "level": 3,
+     "group": null
+    },
+    {
+     "skillId": "610050b3-10f4-4a49-9a04-096c69c6e296",
+     "name": "Docker",
+     "level": 2,
+     "group": null
+    },
+    {
+     "skillId": "81b69850-6d0e-4ae2-af15-255bcccec334",
+     "name": "Bezpieczeństwo aplikacji",
+     "level": 2,
+     "group": null
+    },
+    {
+     "skillId": "2b7f4a32-9da5-4312-984c-4197135052f5",
+     "name": "TypeScript",
+     "level": 1,
+     "group": null
+    },
+    {
+     "skillId": "11ff594c-ebcf-447a-b8e3-1ba3869174ca",
+     "name": "Git",
+     "level": 1,
+     "group": null
+    }
+   ],
+   "niceToHaveSkills": [],
+   "languages": [
+    {
+     "code": "pl",
+     "level": "C2"
+    }
+   ],
+   "isPromoted": false,
+   "isSuperOffer": false,
+   "applyMethod": "external",
+   "applyUrl": "https://getittogether.recruitify.ai/job/44191f0e-d880-478b-a377-0fda142d200c?sourceId=45",
+   "lastPublishedAt": "2026-11-05T13:33:18.505917Z",
+   "expiredAt": "2026-11-16T22:59:59.999Z",
+   "companyProfileSlug": null,
+   "hybridWorkSchedule": null
+  },
+  {
+   "guid": "bccb8bc3-d5eb-4f51-988f-4f485b3308a7",
+   "slug": "rits-php-react-consultant-warszawa-php",
+   "title": "PHP React Consultant",
+   "workplaceType": "remote",
+   "workingTime": "b2b_contract",
+   "experienceLevel": "senior",
+   "category": {
+    "key": "php",
+    "parentKey": null
+   },
+   "city": "Warszawa",
+   "street": "Warszawa",
+   "latitude": 52.2296756,
+   "longitude": 21.0122287,
+   "isRemoteInterview": false,
+   "companyName": "RITS",
+   "companyLogoThumbUrl": "https://imgproxy.justjoinit.tech/NSBbp1MwpsBbm-L03BrhPnD5iLeChw0IjL7p1tpu7Zg/h:200/w:200/plain/https://public.rocketjobs.pl/companies/logos/original/6aac78268ac1cfcb803e6612dc17b28065cff561.jpg",
+   "publishedAt": "2026-11-15T12:15:03.4533733Z",
+   "isOpenToHireUkrainians": false,
+   "locations": [
+    {
+     "city": "Warszawa",
+     "street": "Warszawa",
+     "latitude": 52.2296756,
+     "longitude": 21.0122287,
+     "slug": "rits-php-react-consultant-warszawa-php"
+    }
+   ],
+   "employmentTypes": [
+    {
+     "from": 21840.0,
+     "fromPerUnit": 130.0,
+     "to": 25200.0,
+     "toPerUnit": 150.0,
+     "currency": "PLN",
+     "currencySource": "original",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 5572.0,
+     "fromPerUnit": 33.16411132937071,
+     "to": 6429.0,
+     "toPerUnit": 38.26628230312005,
+     "currency": "USD",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 4978.0,
+     "fromPerUnit": 29.63098032958765,
+     "to": 5744.0,
+     "toPerUnit": 34.18959268798575,
+     "currency": "EUR",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 4557.0,
+     "fromPerUnit": 27.12571726656233,
+     "to": 5258.0,
+     "toPerUnit": 31.29890453834115,
+     "currency": "CHF",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    },
+    {
+     "from": 4153.0,
+     "fromPerUnit": 24.71811838077309,
+     "to": 4792.0,
+     "toPerUnit": 28.52090582396895,
+     "currency": "GBP",
+     "currencySource": "conversion",
+     "type": "b2b",
+     "unit": "Hour",
+     "gross": false
+    }
+   ],
+   "requiredSkills": [
+    {
+     "skillId": "5b08f5b9-c1be-4ba7-a812-16b90594ed8b",
+     "name": "PHP 7",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "202d7f82-4789-41a4-a5d6-ccbb6f3597fd",
+     "name": "Symfony",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "cfffe232-fe72-4555-b8d5-5cd1974d9343",
+     "name": "JavaScript",
+     "level": 3,
+     "group": null
+    },
+    {
+     "skillId": "c509ac0f-846f-4fdd-a0e1-2f9200f18827",
+     "name": "React",
+     "level": 3,
+     "group": null
+    },
+    {
+     "skillId": "c98fc964-5f03-488f-9e6c-3c47ebac848a",
+     "name": "SQL",
+     "level": 4,
+     "group": null
+    },
+    {
+     "skillId": "8fdf27f1-5a33-4b7d-bbfd-451e6b726722",
+     "name": "GitLab",
+     "level": 4,
+     "group": null
+    }
+   ],
+   "niceToHaveSkills": [],
+   "languages": [
+    {
+     "code": "pl",
+     "level": "C1"
+    },
+    {
+     "code": "en",
+     "level": "B1"
+    }
+   ],
+   "isPromoted": false,
+   "isSuperOffer": false,
+   "applyMethod": "external",
+   "applyUrl": "https://rits.traffit.com/public/an/628b973e09669ae015281cad20a1591c367231556c513d3d",
+   "lastPublishedAt": "2026-11-10T12:10:39.095132Z",
+   "expiredAt": "2026-12-10T22:59:59.999Z",
+   "companyProfileSlug": null,
+   "hybridWorkSchedule": null
+  }
+ ],
+ "meta": {
+  "from": 0,
+  "totalItems": 34,
+  "prev": {
+   "cursor": null,
+   "itemsCount": 10
+  },
+  "next": {
+   "cursor": null,
+   "itemsCount": 0
+  }
+ }
+}

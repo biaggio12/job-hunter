@@ -1,0 +1,122 @@
+# Job Hunter — uruchomienie: `docker compose up -d --build`
+# Nazwa projektu jest stała, więc kontenery/wolumeny/sieć nie kolidują z innymi aplikacjami na hoście.
+name: jobhunter
+
+x-php-env: &php-env
+  APP_ENV: prod
+  APP_DEBUG: "0"
+  APP_SECRET: ${APP_SECRET:?Ustaw APP_SECRET w pliku .env}
+  DATABASE_URL: postgresql://${POSTGRES_USER:-jobhunter}:${POSTGRES_PASSWORD:-jobhunter}@db:5432/${POSTGRES_DB:-jobhunter}?serverVersion=17&charset=utf8
+  MESSENGER_TRANSPORT_DSN: doctrine://default?auto_setup=0
+  # Blokady (np. jeden skan danego portalu naraz) jako PostgreSQL advisory locks — wspólne dla API i workera.
+  LOCK_DSN: postgresql+advisory://${POSTGRES_USER:-jobhunter}:${POSTGRES_PASSWORD:-jobhunter}@db:5432/${POSTGRES_DB:-jobhunter}
+  DEFAULT_URI: ${APP_PUBLIC_URL:-http://localhost:8088}
+  APP_PUBLIC_URL: ${APP_PUBLIC_URL:-http://localhost:8088}
+  APP_TIMEZONE: ${APP_TIMEZONE:-Europe/Warsaw}
+  TZ: ${APP_TIMEZONE:-Europe/Warsaw}
+  SCAN_INTERVAL_HOURS: ${SCAN_INTERVAL_HOURS:-6}
+  SCAN_FAILURE_ALERT_THRESHOLD: ${SCAN_FAILURE_ALERT_THRESHOLD:-3}
+  EXPIRE_AFTER_MISSED_SCANS: ${EXPIRE_AFTER_MISSED_SCANS:-4}
+  SCRAPER_DELAY_MS: ${SCRAPER_DELAY_MS:-2000}
+  SCRAPER_MAX_PAGES: ${SCRAPER_MAX_PAGES:-5}
+  SCRAPER_USER_AGENT: ${SCRAPER_USER_AGENT:-Mozilla/5.0 (compatible; JobHunter/1.0; personal job alerts)}
+  DISCORD_WEBHOOK_URL: ${DISCORD_WEBHOOK_URL:-}
+  TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+  TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-jobhunter}
+      POSTGRES_USER: ${POSTGRES_USER:-jobhunter}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-jobhunter}
+      TZ: ${APP_TIMEZONE:-Europe/Warsaw}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$$POSTGRES_USER\" -d \"$$POSTGRES_DB\""]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  # Symfony API (php-fpm). Wykonuje migracje i bootstrap przy starcie.
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+      target: prod
+    image: jobhunter-php:latest
+    restart: unless-stopped
+    environment:
+      <<: *php-env
+      RUN_MIGRATIONS: "1"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "SCRIPT_NAME=/ping SCRIPT_FILENAME=/ping REQUEST_METHOD=GET cgi-fcgi -bind -connect 127.0.0.1:9000 | grep -q pong"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+
+  # Worker: Messenger (skany w tle) + Scheduler (skan co SCAN_INTERVAL_HOURS h, wysyłka powiadomień).
+  worker:
+    image: jobhunter-php:latest
+    restart: unless-stopped
+    user: "82:82" # www-data
+    environment:
+      <<: *php-env
+      RUN_MIGRATIONS: "0"
+    command: ["php", "bin/console", "messenger:consume", "async", "scheduler_default", "--time-limit=3600", "--memory-limit=200M", "-v"]
+    depends_on:
+      php:
+        condition: service_started
+
+  # Reverse proxy + zbudowany frontend (pliki statyczne).
+  nginx:
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    image: jobhunter-nginx:latest
+    restart: unless-stopped
+    ports:
+      - "${HTTP_BIND:-127.0.0.1}:${HTTP_PORT:-8088}:80"
+    depends_on:
+      php:
+        condition: service_healthy
+
+  # Tryb deweloperski frontendu z hot-reload: `docker compose --profile dev up frontend`
+  frontend:
+    profiles: ["dev"]
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm install --no-audit --no-fund && npm run dev -- --host 0.0.0.0"
+    environment:
+      VITE_API_PROXY: http://nginx:80
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "127.0.0.1:${VITE_PORT:-5173}:5173"
+    depends_on:
+      - nginx
+
+  # Testy backendu (baza jobhunter_test w tym samym kontenerze PostgreSQL):
+  # `docker compose --profile test run --rm tests`
+  tests:
+    profiles: ["test"]
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+      target: test
+    image: jobhunter-php-test:latest
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-jobhunter}:${POSTGRES_PASSWORD:-jobhunter}@db:5432/${POSTGRES_DB:-jobhunter}?serverVersion=17&charset=utf8
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db_data:

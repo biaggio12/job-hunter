@@ -1,0 +1,480 @@
+{
+ "postings": [
+  {
+   "id": "senior-php-software-engineer-symfony-spyrosoft-Remote",
+   "name": "Spyrosoft",
+   "location": {
+    "places": [
+     {
+      "city": "Remote",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-remote"
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "city": "Wrocław",
+      "street": "plac Nowy Targ 28",
+      "postalCode": "50-141",
+      "geoLocation": {
+       "latitude": 51.1104135,
+       "longitude": 17.0385273
+      },
+      "url": "senior-php-software-engineer-symfony-spyrosoft-wroclaw"
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "kuyavian-pomeranian",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-kuyavian-pomeranian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lodz",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-lodz",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lublin",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-lublin",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lubusz",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-lubusz",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lesser-poland",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-lesser-poland",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "masovian",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-masovian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "opole",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-opole",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "subcarpathian",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-subcarpathian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "podlaskie",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-podlaskie",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "pomeranian",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-pomeranian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "silesian",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-silesian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "holy-cross",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-holy-cross",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "warmian-masurian",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-warmian-masurian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "greater-poland",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-greater-poland",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "west-pomeranian",
+      "url": "senior-php-software-engineer-symfony-spyrosoft-west-pomeranian",
+      "provinceOnly": true
+     }
+    ],
+    "fullyRemote": true,
+    "covidTimeRemotely": false,
+    "hybridDesc": "",
+    "type": "remote"
+   },
+   "posted": 1793614363214,
+   "renewed": 1794651163214,
+   "title": "Senior PHP Software Engineer (Symfony)",
+   "technology": "PHP",
+   "logo": {
+    "original": "companies/logos/original/spyrosoft_20200313_111958_20220812_123617.png",
+    "jobs_details": "companies/logos/jobs_details/spyrosoft_20200313_111958_20220812_123617.png",
+    "jobs_listing": "companies/logos/jobs_listing/spyrosoft_20200313_111958_20220812_123617.png",
+    "jobs_details_2x": "companies/logos/jobs_details_2x/spyrosoft_20200313_111958_20220812_123617.png",
+    "jobs_listing_2x": "companies/logos/jobs_listing_2x/spyrosoft_20200313_111958_20220812_123617.png",
+    "companies_details": "companies/logos/companies_details/spyrosoft_20200313_111958_20220812_123617.png",
+    "companies_listing": "companies/logos/companies_listing/spyrosoft_20200313_111958_20220812_123617.png",
+    "jobs_details_webp": "companies/logos/jobs_details/spyrosoft_20200313_111958_20220812_123617.webp",
+    "jobs_listing_webp": "companies/logos/jobs_listing/spyrosoft_20200313_111958_20220812_123617.webp",
+    "companies_details_2x": "companies/logos/companies_details_2x/spyrosoft_20200313_111958_20220812_123617.png",
+    "companies_listing_2x": "companies/logos/companies_listing_2x/spyrosoft_20200313_111958_20220812_123617.png",
+    "jobs_details_2x_webp": "companies/logos/jobs_details_2x/spyrosoft_20200313_111958_20220812_123617.webp",
+    "jobs_listing_2x_webp": "companies/logos/jobs_listing_2x/spyrosoft_20200313_111958_20220812_123617.webp",
+    "original_pixel_image": "companies/logos/original_pixel_image/spyrosoft_20200313_111958_20220812_123617.png",
+    "companies_details_webp": "companies/logos/companies_details/spyrosoft_20200313_111958_20220812_123617.webp",
+    "companies_listing_webp": "companies/logos/companies_listing/spyrosoft_20200313_111958_20220812_123617.webp",
+    "companies_details_2x_webp": "companies/logos/companies_details_2x/spyrosoft_20200313_111958_20220812_123617.webp",
+    "companies_listing_2x_webp": "companies/logos/companies_listing_2x/spyrosoft_20200313_111958_20220812_123617.webp"
+   },
+   "category": "backend",
+   "seniority": [
+    "Senior"
+   ],
+   "url": "senior-php-software-engineer-symfony-spyrosoft-remote",
+   "regions": [
+    "pl"
+   ],
+   "fullyRemote": false,
+   "salary": {
+    "from": 16800.0,
+    "to": 22680.0,
+    "type": "b2b",
+    "currency": "PLN",
+    "period": "Month",
+    "disclosedAt": "VISIBLE",
+    "flexibleUpperBound": false,
+    "containsSalary": "VISIBLE"
+   },
+   "flavors": [
+    "it"
+   ],
+   "topInSearch": false,
+   "highlighted": false,
+   "help4Ua": false,
+   "reference": "LYFVGLKV",
+   "searchBoost": true,
+   "onlineInterviewAvailable": true,
+   "tiles": {
+    "values": [
+     {
+      "value": "backend",
+      "type": "category"
+     },
+     {
+      "value": "Symfony",
+      "type": "requirement"
+     },
+     {
+      "value": "PHP",
+      "type": "requirement"
+     },
+     {
+      "value": "Magento",
+      "type": "requirement"
+     }
+    ]
+   }
+  },
+  {
+   "id": "php-developer-symfony-kraftcode-Remote",
+   "name": "KraftCode",
+   "location": {
+    "places": [
+     {
+      "city": "Remote",
+      "url": "php-developer-symfony-kraftcode-remote"
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "city": "Wrocław",
+      "street": "",
+      "postalCode": "",
+      "geoLocation": {
+       "latitude": 51.10929480000001,
+       "longitude": 17.0386019
+      },
+      "url": "php-developer-symfony-kraftcode-wroclaw"
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "kuyavian-pomeranian",
+      "url": "php-developer-symfony-kraftcode-kuyavian-pomeranian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lodz",
+      "url": "php-developer-symfony-kraftcode-lodz",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lublin",
+      "url": "php-developer-symfony-kraftcode-lublin",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lubusz",
+      "url": "php-developer-symfony-kraftcode-lubusz",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "lesser-poland",
+      "url": "php-developer-symfony-kraftcode-lesser-poland",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "masovian",
+      "url": "php-developer-symfony-kraftcode-masovian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "opole",
+      "url": "php-developer-symfony-kraftcode-opole",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "subcarpathian",
+      "url": "php-developer-symfony-kraftcode-subcarpathian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "podlaskie",
+      "url": "php-developer-symfony-kraftcode-podlaskie",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "pomeranian",
+      "url": "php-developer-symfony-kraftcode-pomeranian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "silesian",
+      "url": "php-developer-symfony-kraftcode-silesian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "holy-cross",
+      "url": "php-developer-symfony-kraftcode-holy-cross",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "warmian-masurian",
+      "url": "php-developer-symfony-kraftcode-warmian-masurian",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "greater-poland",
+      "url": "php-developer-symfony-kraftcode-greater-poland",
+      "provinceOnly": true
+     },
+     {
+      "country": {
+       "code": "POL",
+       "name": "Poland"
+      },
+      "province": "west-pomeranian",
+      "url": "php-developer-symfony-kraftcode-west-pomeranian",
+      "provinceOnly": true
+     }
+    ],
+    "fullyRemote": true,
+    "covidTimeRemotely": false,
+    "hybridDesc": "",
+    "type": "remote"
+   },
+   "posted": 1792501732149,
+   "renewed": 1794578932149,
+   "title": "PHP Developer (Symfony)",
+   "technology": "PHP",
+   "logo": {
+    "original": "companies/logos/original/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "jobs_details": "companies/logos/jobs_details/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "jobs_listing": "companies/logos/jobs_listing/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "jobs_details_2x": "companies/logos/jobs_details_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "jobs_listing_2x": "companies/logos/jobs_listing_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "companies_details": "companies/logos/companies_details/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "companies_listing": "companies/logos/companies_listing/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "jobs_details_webp": "companies/logos/jobs_details/zrzut_ekranu_20250122_o_150408_20250122_150625.webp",
+    "jobs_listing_webp": "companies/logos/jobs_listing/zrzut_ekranu_20250122_o_150408_20250122_150625.webp",
+    "companies_details_2x": "companies/logos/companies_details_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "companies_listing_2x": "companies/logos/companies_listing_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "jobs_details_2x_webp": "companies/logos/jobs_details_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.webp",
+    "jobs_listing_2x_webp": "companies/logos/jobs_listing_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.webp",
+    "original_pixel_image": "companies/logos/original_pixel_image/zrzut_ekranu_20250122_o_150408_20250122_150625.png",
+    "companies_details_webp": "companies/logos/companies_details/zrzut_ekranu_20250122_o_150408_20250122_150625.webp",
+    "companies_listing_webp": "companies/logos/companies_listing/zrzut_ekranu_20250122_o_150408_20250122_150625.webp",
+    "companies_details_2x_webp": "companies/logos/companies_details_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.webp",
+    "companies_listing_2x_webp": "companies/logos/companies_listing_2x/zrzut_ekranu_20250122_o_150408_20250122_150625.webp"
+   },
+   "category": "backend",
+   "seniority": [
+    "Mid"
+   ],
+   "url": "php-developer-symfony-kraftcode-remote",
+   "regions": [
+    "pl"
+   ],
+   "fullyRemote": false,
+   "salary": {
+    "from": 19000.0,
+    "to": 25200.0,
+    "type": "b2b",
+    "currency": "PLN",
+    "period": "Month",
+    "disclosedAt": "VISIBLE",
+    "flexibleUpperBound": false,
+    "containsSalary": "VISIBLE"
+   },
+   "flavors": [
+    "it"
+   ],
+   "topInSearch": false,
+   "highlighted": false,
+   "help4Ua": false,
+   "reference": "DCKMRUV5",
+   "searchBoost": true,
+   "onlineInterviewAvailable": true,
+   "tiles": {
+    "values": [
+     {
+      "value": "backend",
+      "type": "category"
+     },
+     {
+      "value": "Symfony",
+      "type": "requirement"
+     },
+     {
+      "value": "PHP",
+      "type": "requirement"
+     },
+     {
+      "value": "AWS",
+      "type": "requirement"
+     }
+    ]
+   }
+  }
+ ],
+ "totalCount": 2,
+ "totalPages": 1
+}
